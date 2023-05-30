@@ -1,0 +1,248 @@
+html{
+  background-color: antiquewhite;
+
+}
+.header{
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgb(137, 137, 137);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;    
+    display: flex;
+    padding-top: 0px;
+    position:sticky;
+} 
+.logo{
+    margin-top: -25px;
+    margin-left: -30px;
+}
+
+.title{
+    text-align: left;
+    margin-left: -30px; 
+    font-size: 50px;
+    flex: 1;
+}
+.subheader{
+    display: flex;
+    /* align-items:flex-end; */
+    /* float: right; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 5px 5px;
+    width:80%;
+    margin-left: 10%;
+    padding: 4px 0 4px 0;
+}
+.homeButton{
+    flex:1;
+    cursor: pointer;
+}
+.allUsers{
+    flex:1;
+    cursor: pointer;
+}
+.dates{
+    margin-top: 30px;
+    /* position: absolute;
+    left: 0; */
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+    padding: 10px 5px 5px 15px;
+    min-width: 300px;
+    max-width: 400px;
+    width: 45%;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.datesButton{
+    background-color: white;
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    top:80px;
+    transform: translateX(-5.1px);
+}
+.createBike{
+    margin-right: 10px;
+}
+.filterButton{
+    margin-right: 10px;
+}
+.filter{
+    /* margin-top: 70px; */
+    position: absolute;
+}
+.myBikes{
+    margin:0 10px;
+    flex:1;
+    cursor: pointer;
+}
+.color{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    float: right;
+} 
+
+.filterHeading{
+    display: flex;
+    width:50%;
+    margin: auto;
+}
+.Model{
+    flex:1;
+}
+.Color{
+    flex:1;
+}
+.City{
+    flex:1;
+}
+.AvgRating{
+    flex:1;
+}
+.logout{
+    flex: 1;
+    margin-left: auto;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.filterParent{
+    display: flex;
+}
+
+.filterModel{
+    flex: 1; 
+    /* width: 110px; */
+}
+.filterModelChild{
+    margin-top: 10px;
+    overflow: auto;
+    height: 70px;
+    width: 140px;
+}
+
+.filterColor{
+    flex:1;
+    margin-left:3px;
+}
+
+.filterColorChild{
+    margin-top: 10px;
+  overflow: auto;
+  width: 110px;
+  height: 70px;
+}
+
+.filterCity{
+    flex:1;
+    margin-left:3px;
+}
+.filterCityChild{
+    margin-top: 10px;
+  overflow: auto;
+  width: 120px;
+  height: 70px;
+
+}
+.filterRatingChild{
+    flex:1;
+    margin-left:3px;
+}
+.filterRatingChild{
+    margin-top: 10px;
+  overflow: auto;
+  width: 70px;
+  height: 70px;
+}
+
+.filterModelChild::-webkit-scrollbar {
+    width: 6px;
+  }
+   
+  .filterModelChild::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(255, 255, 255);
+  
+  }
+   
+  .filterModelChild::-webkit-scrollbar-thumb {
+    background-color: rgb(204, 204, 204);
+    border-radius: 30px;
+  }
+  
+  .filterCityChild::-webkit-scrollbar {
+    width: 6px;
+  }
+   
+  .filterCityChild::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(255, 255, 255);
+  
+  }
+   
+  .filterCityChild::-webkit-scrollbar-thumb {
+    background-color: rgb(204, 204, 204);
+    border-radius: 30px;
+  }
+
+  .filterColorChild::-webkit-scrollbar {
+    width: 6px;
+  }
+   
+  .filterColorChild::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(255, 255, 255);
+  
+  }
+   
+  .filterColorChild::-webkit-scrollbar-thumb {
+    background-color: rgb(204, 204, 204);
+    border-radius: 30px;
+  }
+  
+  .filterRatingChild::-webkit-scrollbar {
+    width: 6px;
+  }
+   
+  .filterRatingChild::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(255, 255, 255);
+  
+  }
+   
+  .filterRatingChild::-webkit-scrollbar-thumb {
+    background-color: rgb(204, 204, 204);
+    border-radius: 30px;
+  }
+  
+
+  @media screen and (min-width:1100px) {
+    .dates{
+        float:left;
+        display: block;
+        margin-left:10px;
+        margin-top: 30px;
+        position: absolute;
+        max-width: 21%;
+    }
+    .datesButton{
+        float:left;
+        position: absolute;
+        max-width: 99.7%;
+        top:130px;
+    transform: translateX(-14px);
+
+    }
+  }
